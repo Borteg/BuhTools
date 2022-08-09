@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4e1be3c6-0f7d-4ef8-8bd8-318dd0d7aa59">
+  <producedTypes>
+    <objectType typeId="d1e30a04-6b36-4748-b313-379964ac1d29" valueTypeId="d5e7dd70-f48d-4964-aac7-8bc6199de3b8"/>
+    <managerType typeId="e80a88fa-d522-41b3-865b-85ac7d8c4b45" valueTypeId="ffcafd6a-456f-4954-8c61-0b9213da232b"/>
+  </producedTypes>
+  <name>ИМ</name>
+  <synonym>
+    <key>ru</key>
+    <value>ИМ</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ИМ.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ИМ.Template.Макет</mainDataCompositionSchema>
+  <attributes uuid="36ce68ce-b37b-4129-ad21-1e2db4f4d5f8">
+    <name>АдресТЗ</name>
+    <synonym>
+      <key>ru</key>
+      <value>АдресТЗ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="860d976a-2894-4a16-944e-9cb27d4adb8e">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="31a92d9b-6a71-4053-97bd-c9f09d9bcfaf">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="b5c434ba-c188-48f7-97e3-77198c1e4345">
+    <name>МакетСравнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет сравнения</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

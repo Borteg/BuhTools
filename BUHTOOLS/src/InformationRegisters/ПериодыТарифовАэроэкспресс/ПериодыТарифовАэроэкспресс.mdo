@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc40e86c-b859-47fd-8477-6d0abb0ddbcf">
+  <producedTypes>
+    <selectionType typeId="d6ee37d0-945b-46f1-97ef-098e7d9585bd" valueTypeId="cea88d42-152c-4449-9841-16efeaff350b"/>
+    <listType typeId="29d139b6-142b-4e97-bddc-fc9574b3f791" valueTypeId="2926bd6d-0e33-4fd3-a080-85a479a60c1f"/>
+    <managerType typeId="1b0b5d54-7a17-4181-bfb0-196bfd6c8c1b" valueTypeId="83fb066f-a6ae-4e23-91ee-c25cc131df52"/>
+    <recordSetType typeId="6a465448-d531-418b-8cce-0f90ad305f91" valueTypeId="f0984d2a-ccdf-4b90-8874-24afcf9fc374"/>
+    <recordKeyType typeId="d07e4ad6-be30-44fb-b7ad-8aea82a3ea5a" valueTypeId="c156fc6b-89a6-46a0-b54a-962a41287dfb"/>
+    <recordType typeId="38c8b1f5-201e-4511-824c-f5ca928dcaac" valueTypeId="f096e548-cf58-4dc7-b28c-bb830c7cfd12"/>
+    <recordManagerType typeId="ef4d1c76-eff7-4c7c-a0bc-d58f8b5b0f3a" valueTypeId="94c10411-038d-4a62-9cf1-e5ff21356b75"/>
+  </producedTypes>
+  <name>ПериодыТарифовАэроэкспресс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периоды тарифов аэроэкспресс</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ПериодыТарифовАэроэкспресс.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ПериодыТарифовАэроэкспресс.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5bcf4d23-9d73-4cd6-9257-ebcc2d30b6d5">
+    <name>ДатаОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="cac0ed77-9853-4935-82b9-d70a23874e93">
+    <name>Тариф</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТарифыАэроэкспрессПоезда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="4285a1f8-56ee-4eb1-8a57-ab019424a75e">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="123fb412-1e81-4951-9864-1f083136d34a">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b3da1f81-c5be-4b93-be8c-a68d14e52d37">
+  <name>ОтчетПоКассам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по кассам</value>
+  </synonym>
+</mdclass:Role>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="285bae03-9d11-4182-8bfc-801d6ff4338a">
+  <name>Фискализация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фискализация</value>
+  </synonym>
+  <server>true</server>
+</mdclass:CommonModule>

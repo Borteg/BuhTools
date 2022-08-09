@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1681d1c1-4a0b-49e3-ac94-0eaa43b30af7">
+  <producedTypes>
+    <selectionType typeId="5ea4fc9b-3b55-4ac6-888e-baf31ff466d5" valueTypeId="98cca2b8-d416-4ba5-87ea-cbcabb8e0268"/>
+    <listType typeId="f91b4d73-3b22-419e-91e0-4074c3dac14a" valueTypeId="0a5969bc-a53c-40fe-9366-d4e01f412d2d"/>
+    <managerType typeId="3c086de1-8f06-4fe9-8050-2fdf87073458" valueTypeId="c9177391-53e6-463d-b289-348daaaa9da1"/>
+    <recordSetType typeId="95ad7e2e-93ae-4b3b-97d7-26faa2a68191" valueTypeId="2bd18ec7-9f28-4808-8109-3f3c141d4dab"/>
+    <recordKeyType typeId="f5489530-98b3-4e7c-bee4-cdc64eac64fe" valueTypeId="17cfd268-3df3-46e3-a866-5071bd6acf84"/>
+    <recordType typeId="627b62bd-7f38-429c-adfb-b4df58d96875" valueTypeId="7787b507-e50c-4b85-8740-7b6eab1ba964"/>
+    <recordManagerType typeId="1ce9ac81-2fd4-40b8-ae7f-9ce1f0633738" valueTypeId="91632611-4334-47d2-bc1f-5d1e252d6f84"/>
+  </producedTypes>
+  <name>ГрадацияСтоимостиБилетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тарифы по стоимости билетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5207f761-6bc8-4b96-a4cb-53301b7f646d">
+    <name>Вознаграждение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вознаграждение</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c19092f1-74d4-4e18-a537-02bb965108a6">
+    <name>СуммаБилета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма билета</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

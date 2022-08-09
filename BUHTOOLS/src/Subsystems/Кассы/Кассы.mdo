@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fa812bc2-0f07-48f5-aca2-24283811e5ec">
+  <name>Кассы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассы</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ФН</content>
+  <content>Catalog.Кассы</content>
+  <content>InformationRegister.СобытияПоКассам</content>
+  <content>Document.Чек</content>
+  <content>Report.Кассы</content>
+  <content>9f81bcef-db4a-4f95-b33d-4bbbcd3d1543</content>
+  <content>e0cc730a-fbd3-4fb8-b87c-ba7cf8ee8265</content>
+  <content>78ee871f-53f3-4f54-8a15-30406d06134a</content>
+  <content>5b37a85a-73b5-43d8-b1b2-57e0b37a53e9</content>
+  <content>81d1e0a9-b7aa-4c95-b713-45ed75ffee73</content>
+  <content>128ea831-ab8a-4967-974d-49f3d3add817</content>
+  <content>Enum.Направления</content>
+  <content>Report.ФискальнаяДисциплина</content>
+  <content>InformationRegister.ЗамерыВремени</content>
+</mdclass:Subsystem>

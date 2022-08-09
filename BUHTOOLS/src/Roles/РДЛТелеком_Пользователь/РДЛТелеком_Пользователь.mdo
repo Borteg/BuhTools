@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d020ce13-32cb-4b6f-a24a-695804aab1ad">
+  <name>РДЛТелеком_Пользователь</name>
+  <synonym>
+    <key>ru</key>
+    <value>РДЛТелеком пользователь</value>
+  </synonym>
+</mdclass:Role>

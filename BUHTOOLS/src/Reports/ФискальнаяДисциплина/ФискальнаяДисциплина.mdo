@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c2f389a-de8a-482b-93b2-e2f44039e7f7">
+  <producedTypes>
+    <objectType typeId="09464b77-9438-41de-9cb4-fdca00f87da2" valueTypeId="4f290791-b773-4b2c-9e17-d94646d58392"/>
+    <managerType typeId="bcc0cd60-89a4-4bfa-87b7-00a105921d9e" valueTypeId="23203160-5a32-4b59-8560-6770de0c95b6"/>
+  </producedTypes>
+  <name>ФискальнаяДисциплина</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фискальная дисциплина</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ФискальнаяДисциплина.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="a3323d51-8b48-42de-8798-4d91c1049ba6">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="7ee43f90-96e9-4585-9044-d298df1d07cf">
+    <name>РасхожденияФискДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расхождения фиск данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

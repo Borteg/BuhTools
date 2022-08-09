@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17f2a9ca-6153-4b17-80be-60f249363e3b">
+  <producedTypes>
+    <objectType typeId="e20f5573-708a-4d06-affd-16b40051bd19" valueTypeId="80ef0f85-2860-45c4-9ee1-1e1080d7d91a"/>
+    <managerType typeId="1689cfa5-77c9-4226-8198-55dd37affbbb" valueTypeId="a1e3ed45-db04-45fd-afd5-878d6a93af97"/>
+  </producedTypes>
+  <name>ПолучитьДанныеРДЛ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Получить данные RDL</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПолучитьДанныеРДЛ.Form.Форма</defaultForm>
+  <attributes uuid="9c65d744-a06e-445b-bd04-2d8b9c0c8805">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="02af3820-47e7-4613-9783-29a6a42f6fab">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="b35494db-3ac3-446b-baf6-103e02aaf514">
+    <producedTypes>
+      <objectType typeId="e265fbea-a914-4aad-b16c-422d55d2ddeb" valueTypeId="ffcf4f4e-b1db-47db-94a6-426363dd7e2a"/>
+      <rowType typeId="065baca8-d17d-4eb7-ae46-08a73353477f" valueTypeId="2df146f1-6965-4f47-ae2c-14f971160676"/>
+    </producedTypes>
+    <name>ДанныеРДЛТелеком</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные РДЛТелеком</value>
+    </synonym>
+    <attributes uuid="d4376dfe-f3c1-4c80-9338-a146ca44aa00">
+      <name>Code</name>
+      <synonym>
+        <key>ru</key>
+        <value>Code</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="9ddb01a7-8a2f-43a4-8b18-f0c3aeb6c770">
+      <name>Fee</name>
+      <synonym>
+        <key>ru</key>
+        <value>Fee</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b78cdc05-5cc9-4e05-956c-96a9445b990b">
+      <name>OrderID</name>
+      <synonym>
+        <key>ru</key>
+        <value>Order ID</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="7adc9cf9-20d9-4d69-a36e-0ea1b32b8ba5">
+      <name>PaymentTime</name>
+      <synonym>
+        <key>ru</key>
+        <value>Payment time</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="28cde815-c1c9-4e90-8375-b5f4642d6825">
+      <name>Phone</name>
+      <synonym>
+        <key>ru</key>
+        <value>Phone</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>35</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="4a503c75-706b-433d-b07e-a4760c2e78f8">
+      <name>Price</name>
+      <synonym>
+        <key>ru</key>
+        <value>Price</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bde3e2ea-75f6-4f0a-bc8f-449eaa682666">
+      <name>RefundTime</name>
+      <synonym>
+        <key>ru</key>
+        <value>Refund time</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="82709028-c05d-4ef1-a396-f8ef27b7ae97">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

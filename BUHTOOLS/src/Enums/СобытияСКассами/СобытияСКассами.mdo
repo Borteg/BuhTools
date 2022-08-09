@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="316aec2a-444a-4ad6-a646-90b42517b6c1">
+  <producedTypes>
+    <refType typeId="00b38078-06c1-469e-88d4-e36ac0cf1937" valueTypeId="d9b5835e-6d22-4dc7-9253-78fcda16c7d2"/>
+    <listType typeId="2e032e80-4eef-49bc-a0fc-288575e6a0c4" valueTypeId="fd7192a2-42d1-476f-ae42-4dfbbfdd6487"/>
+    <managerType typeId="6ffef330-b552-41bb-bce0-b046f95a8cf3" valueTypeId="8c9c3a74-1400-4908-b133-138cea585ca2"/>
+  </producedTypes>
+  <name>СобытияСКассами</name>
+  <synonym>
+    <key>ru</key>
+    <value>События с кассами</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="00b71ee7-3ee3-49a0-bf0c-4291938f66cf">
+    <name>УстановкаФН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка ФН</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8918ac8b-22e8-4902-b63b-eec60b23d87a">
+    <name>СнятиеФН</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снятие ФН</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

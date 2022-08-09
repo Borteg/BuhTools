@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33862c20-0f31-46f0-96a2-48c074515f98">
+  <producedTypes>
+    <objectType typeId="f313bf25-3f12-424f-83e7-743b24b608f9" valueTypeId="58bfaf2a-f7b1-4ef6-bd0d-50d7ba62331e"/>
+    <managerType typeId="ba3a936d-0bf9-4645-becd-a2e5aec9f747" valueTypeId="64a3e051-5706-42dc-8ab6-217b7ca6dfe3"/>
+  </producedTypes>
+  <name>АэроЭкспресс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Извещение Аэроэкспресс</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.АэроЭкспресс.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.АэроЭкспресс.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="2157c11e-7351-4ef1-927d-36e50acb9f5a">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="a0f2bd31-c187-4c74-a571-2c7ca6585d01">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="768c2220-6c87-48af-aaba-2d6396152471">
+    <name>МакетОтчетаАэроэкспресс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет отчета аэроэкспресс</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

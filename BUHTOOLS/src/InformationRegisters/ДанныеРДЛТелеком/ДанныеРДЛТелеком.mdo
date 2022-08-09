@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17602231-f69b-41b4-a225-45fa50d99609">
+  <producedTypes>
+    <selectionType typeId="1ab990f2-99ce-4123-bf93-04bb5bbd31dc" valueTypeId="13ba576b-bf6f-4b19-b85e-9d981f36c513"/>
+    <listType typeId="1f7c5cda-27a6-4ac6-83aa-0bddd41e5ccc" valueTypeId="4068b95e-8171-4f07-93a0-badedf4346f2"/>
+    <managerType typeId="afb34cc4-ce95-4a8d-833a-f1426af8daeb" valueTypeId="5120b6d0-481b-4c82-ba76-cfa097fefc0e"/>
+    <recordSetType typeId="52d9f2c6-5893-4c6e-98b5-d674ea551341" valueTypeId="3bef46bb-3a04-4431-8da7-b1ec2765bd72"/>
+    <recordKeyType typeId="f02f7124-1d10-4ab7-afe4-292d0b18e9ac" valueTypeId="390d31df-39b8-4b37-9d5c-bb49000447fb"/>
+    <recordType typeId="57f09933-5964-4bac-84a0-d87e70686ab1" valueTypeId="51eb2628-fbd5-40a4-b5a5-e559e598e761"/>
+    <recordManagerType typeId="7e6b0d78-4f6c-47ac-8eb5-d3bf3c1695c5" valueTypeId="fb102937-87dd-40ae-93db-cfe63f85b684"/>
+  </producedTypes>
+  <name>ДанныеРДЛТелеком</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные RDL</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ДанныеРДЛТелеком.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="a18f6b32-ae58-4c16-922b-22701ec32d5f">
+    <name>Fee</name>
+    <synonym>
+      <key>ru</key>
+      <value>Fee</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fc40cd8b-786a-43e9-9126-af3947dd9b01">
+    <name>Price</name>
+    <synonym>
+      <key>ru</key>
+      <value>Price</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="78ab9453-53b7-4eda-a9d5-fc27e6ca7210">
+    <name>Phone</name>
+    <synonym>
+      <key>ru</key>
+      <value>Phone</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>35</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="78b31306-5b07-41e3-b00f-f73619ac4646">
+    <name>RefundTime</name>
+    <synonym>
+      <key>ru</key>
+      <value>Refund time</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="42cdd023-5956-4518-bcff-b6067ccf8401">
+    <name>PaymentTime</name>
+    <synonym>
+      <key>ru</key>
+      <value>Payment time</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="ca9cccaf-7b64-4af7-9299-2ae1e6b9933f">
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Code</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="fb084afc-2182-44ea-9bb9-b114b5e2d12d">
+    <name>OrderID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Order ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="87b2298c-763e-49b3-8f14-4f751d45c2c1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

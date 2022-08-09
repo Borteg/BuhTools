@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="baa7ccfb-8426-43fc-b55f-5cb1ab91d951">
+  <producedTypes>
+    <refType typeId="d6749c51-16ac-4dbd-9a7b-6cf136524c5c" valueTypeId="8531e148-8fc5-4262-af2b-21a02fcd566a"/>
+    <listType typeId="568ecd9a-cb59-4100-a95c-2e7160bd685d" valueTypeId="0b9d66ed-01f3-43e8-81e9-c1bb155f1757"/>
+    <managerType typeId="f0733a3c-295d-439b-a88c-77984566d671" valueTypeId="2a9362bd-1ece-495e-8182-6b9349baa683"/>
+  </producedTypes>
+  <name>Направления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Направления</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="55ee0c5a-dd11-4e9a-8cf1-4758aa604106">
+    <name>ЖД</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЖД</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc2c8e5b-688c-42e2-bf33-6a76a06db273">
+    <name>Автобусы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автобусы</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

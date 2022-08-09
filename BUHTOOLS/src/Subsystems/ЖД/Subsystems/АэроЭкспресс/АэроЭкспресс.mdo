@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c216fce-4fb7-4b89-8d85-aeae72c511d2">
+  <name>АэроЭкспресс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аэро экспресс</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.АэроэкспрессПоНаправлениям</content>
+  <content>Catalog.ТарифыАэроэкспрессПоезда</content>
+  <content>InformationRegister.ПериодыТарифовАэроэкспресс</content>
+  <content>Report.АэроэкспрессОтчет</content>
+  <content>Report.АэроЭкспресс</content>
+  <parentSubsystem>Subsystem.ЖД</parentSubsystem>
+</mdclass:Subsystem>

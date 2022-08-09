@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de5fe934-a245-4bd0-949f-6774724ce153">
+  <name>уфс_UFSGreen</name>
+  <synonym>
+    <key>ru</key>
+    <value>UFSGreen</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="40781784-3f0e-4fc0-a7ed-4e697e03f828">
+  <name>ЖД</name>
+  <synonym>
+    <key>ru</key>
+    <value>ЖД</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.UFS_Blue</picture>
+  </picture>
+  <content>Report.ИМ</content>
+  <content>Report.АэроЭкспресс</content>
+  <content>InformationRegister.ГрадацияСтоимостиБилетов</content>
+  <content>Report.АэроэкспрессПоНаправлениям</content>
+  <content>Enum.Направления</content>
+  <content>Report.АэроэкспрессОтчет</content>
+  <content>Catalog.ТарифыАэроэкспрессПоезда</content>
+  <content>InformationRegister.ПериодыТарифовАэроэкспресс</content>
+  <content>39cbe1f2-3684-4c62-93d2-9f094f2354d3</content>
+  <content>8c78ac82-573e-4721-bec9-e01838233cd2</content>
+  <content>7e3898fb-b689-4168-8f13-dead9d6451ff</content>
+  <content>4d993f40-e249-41d6-a489-c3cf450928a9</content>
+  <content>fd266a09-377b-497e-a0ce-32cba2f4cc68</content>
+  <subsystems>АэроЭкспресс</subsystems>
+</mdclass:Subsystem>

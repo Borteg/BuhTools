@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d9e35f59-c8cc-4b99-b7df-f56fb4df7256">
+  <name>уфс_UFSBlueSmall</name>
+  <synonym>
+    <key>ru</key>
+    <value>UFSBlue small</value>
+  </synonym>
+</mdclass:CommonPicture>

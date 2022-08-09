@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8d2e5f77-8439-4d9e-9701-cc21d5875810">
+  <producedTypes>
+    <selectionType typeId="bc800133-2195-4886-931a-38b45eaac7b1" valueTypeId="f109ed41-710a-4592-906f-222cbc93d48f"/>
+    <listType typeId="65d4510f-f152-40a8-b1ad-7e8a98470d5f" valueTypeId="e54a8c6f-b80a-4da2-8082-37194de137f7"/>
+    <managerType typeId="4851d1c0-854e-4200-8a6f-9237a0b99acd" valueTypeId="767626f5-8224-48c8-80c3-3a952174ba45"/>
+    <recordSetType typeId="3103198f-3308-47b2-adfb-d4b98114fb3b" valueTypeId="887afdd9-c83d-4cfd-8229-a71c9996d138"/>
+    <recordKeyType typeId="8c396ddc-c877-48b3-9fbd-05bf554e8f83" valueTypeId="e9616b27-1df0-47c4-abe9-7589f34844c7"/>
+    <recordType typeId="3ec477c7-bb99-45e2-9528-cc422b69a592" valueTypeId="30e24653-369d-4e71-ae8b-e6335caaa372"/>
+    <recordManagerType typeId="c052ba25-0a93-4b7d-9bba-6c9cf8fcd5df" valueTypeId="43c5217e-2216-406a-ab7b-4ee7ceeb7625"/>
+  </producedTypes>
+  <name>СобытияПоКассам</name>
+  <synonym>
+    <key>ru</key>
+    <value>События по кассам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e3cc8005-64e7-4edd-b88e-837ef31d224d">
+    <name>ФН</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФН</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФН</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="3eb8c218-c753-497b-add0-e7125130fbb1">
+    <name>Касса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Касса</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Кассы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="1c7d37a9-9d4c-47da-ac83-403cf9f62f27">
+    <name>Событие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие</value>
+    </synonym>
+    <type>
+      <types>EnumRef.СобытияСКассами</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

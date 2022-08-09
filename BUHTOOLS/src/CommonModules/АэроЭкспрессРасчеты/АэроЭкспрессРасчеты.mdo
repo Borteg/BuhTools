@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5cdd2cf2-7163-4b86-805a-b208f2045e58">
+  <name>АэроЭкспрессРасчеты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аэро экспресс расчеты</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <privileged>true</privileged>
+</mdclass:CommonModule>

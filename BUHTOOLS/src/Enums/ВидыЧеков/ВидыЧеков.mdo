@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9352bdf-f114-4820-b8b0-a8bc5bbc812d">
+  <producedTypes>
+    <refType typeId="7f811138-2126-4347-aa1f-acfdad199372" valueTypeId="e046566a-5181-49a9-b9a7-62f0945471f4"/>
+    <listType typeId="1dccdde1-7670-4700-b443-2110416e5061" valueTypeId="de260692-c4aa-44c7-93c1-12c09bfd4cc0"/>
+    <managerType typeId="d4291271-d584-4a1b-8952-f347fb865cc9" valueTypeId="68d0de1e-b0fa-41e7-9d65-c81837539542"/>
+  </producedTypes>
+  <name>ВидыЧеков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды чеков</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1f7c9f88-dda3-481e-a5cc-473953ca504f">
+    <name>ОтчётРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчёт о регистрации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4cfb53e4-a36f-49ee-b172-d6fa575b08db">
+    <name>ОтчётЗакрытиеАрхива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчёт о закрытии архива</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d1d473c9-8e75-4d69-9c36-967d095f3587">
+    <name>ОтчетПеререгистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет о  перерегистрации</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

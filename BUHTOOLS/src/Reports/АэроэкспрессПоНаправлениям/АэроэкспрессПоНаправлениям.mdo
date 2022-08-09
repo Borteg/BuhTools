@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6520ed6f-ec6e-482c-a5da-df036bba9676">
+  <producedTypes>
+    <objectType typeId="69100b54-3cb8-4565-8c2c-fcef0bdce120" valueTypeId="a2145d08-64a1-4992-9c50-8dc4152b2d66"/>
+    <managerType typeId="0f21cd41-a104-4987-901b-4fef278dcd03" valueTypeId="65db3dc4-a24d-4ca6-907d-ab237942ae7c"/>
+  </producedTypes>
+  <name>АэроэкспрессПоНаправлениям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аэроэкспресс по направлениям</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.АэроэкспрессПоНаправлениям.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.АэроэкспрессПоНаправлениям.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="3926161e-ae25-4f0b-b033-7804789d828d">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="155f1ced-985e-4001-9b7d-9ad158e0d5f4">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
