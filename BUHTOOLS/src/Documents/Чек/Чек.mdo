@@ -421,7 +421,7 @@
     <name>ВерсияФФДККТ</name>
     <synonym>
       <key>ru</key>
-      <value>Версия ФФДККТ</value>
+      <value>Версия ФФД ККТ1</value>
     </synonym>
     <type>
       <types>String</types>
