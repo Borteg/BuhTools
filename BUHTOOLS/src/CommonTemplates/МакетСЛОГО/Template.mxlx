@@ -1452,7 +1452,6 @@
 	</rowsItem>
 	<rowsItem>
 		<index>28</index>
-		<indexTo>29</indexTo>
 		<row>
 			<empty>true</empty>
 		</row>
@@ -1518,8 +1517,7 @@
 		<endColumn>3</endColumn>
 		<endColumnOffset>90</endColumnOffset>
 		<autoSize>false</autoSize>
-		<pictureSize>AutoSize</pictureSize>
-		<zOrder>1</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>1</pictureIndex>
 	</drawing>
 	<drawing>
@@ -1536,7 +1534,7 @@
 		<endColumnOffset>93</endColumnOffset>
 		<autoSize>false</autoSize>
 		<pictureSize>Proportionally</pictureSize>
-		<zOrder>2</zOrder>
+		<zOrder>0</zOrder>
 		<pictureIndex>2</pictureIndex>
 	</drawing>
 	<templateMode>true</templateMode>
@@ -1682,7 +1680,7 @@
 	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 	</line>
-	<line width="1" gap="false">
+	<line width="1">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentDrawingLineType">None</v8ui:style>
 	</line>
 	<font faceName="HelveticaNeueCyr" height="11" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
@@ -1781,7 +1779,7 @@
 		<width>72</width>
 		<horizontalAlignment>Left</horizontalAlignment>
 		<verticalAlignment>Center</verticalAlignment>
-		<textColor>auto</textColor>
+		<textColor>#000000</textColor>
 		<hyperLink>false</hyperLink>
 	</format>
 	<format>
@@ -1810,22 +1808,20 @@
 	</format>
 	<format>
 		<font>2</font>
-		<textColor>auto</textColor>
+		<textColor>#000000</textColor>
 		<hyperLink>false</hyperLink>
 	</format>
 	<format>
 		<font>2</font>
-		<textColor>auto</textColor>
+		<textColor>#000000</textColor>
 	</format>
 	<format>
 		<drawingBorder>1</drawingBorder>
 	</format>
 	<picture>
-		<index>0</index>
-		<picture ref="v8ui:уфс_UFSBlueSmall"/>
+		<picture ref="v8ui:уфс_UFSBlueSmall"></picture>
 	</picture>
 	<picture>
-		<index>1</index>
-		<picture ref="v8ui:UFS_Blue"/>
+		<picture ref="v8ui:UFS_Blue"></picture>
 	</picture>
 </document>
