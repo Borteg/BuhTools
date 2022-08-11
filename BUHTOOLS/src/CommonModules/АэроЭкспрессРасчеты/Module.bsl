@@ -35,7 +35,7 @@
 	|	group by
 	|	t.type";
 	
-	
+	//Сообщить(ТекстЗапроса);
 	RecordSet = Connection.Execute(ТекстЗапроса);
 	
 	
