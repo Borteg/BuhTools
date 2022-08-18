@@ -72,6 +72,7 @@
   <catalogs>Catalog.ФН</catalogs>
   <catalogs>Catalog.ТарифыАэроэкспрессПоезда</catalogs>
   <documents>Document.Чек</documents>
+  <documents>Document.ДанныеПоПосредникам</documents>
   <enums>Enum.ВидыЧеков</enums>
   <enums>Enum.СобытияСКассами</enums>
   <enums>Enum.Направления</enums>
@@ -82,6 +83,7 @@
   <reports>Report.АэроэкспрессПоНаправлениям</reports>
   <reports>Report.АэроэкспрессОтчет</reports>
   <reports>Report.ФискальнаяДисциплина</reports>
+  <reports>Report.Отчет</reports>
   <dataProcessors>DataProcessor.ПолучитьДанныеРДЛ</dataProcessors>
   <dataProcessors>DataProcessor.ДанныеПосредников</dataProcessors>
   <informationRegisters>InformationRegister.ДанныеРДЛТелеком</informationRegisters>
@@ -90,4 +92,5 @@
   <informationRegisters>InformationRegister.СобытияПоКассам</informationRegisters>
   <informationRegisters>InformationRegister.ЗамерыВремени</informationRegisters>
   <informationRegisters>InformationRegister.ПериодыТарифовАэроэкспресс</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ДанныеПосредников</accumulationRegisters>
 </mdclass:Configuration>

@@ -23,5 +23,7 @@
   <content>7e3898fb-b689-4168-8f13-dead9d6451ff</content>
   <content>4d993f40-e249-41d6-a489-c3cf450928a9</content>
   <content>fd266a09-377b-497e-a0ce-32cba2f4cc68</content>
+  <content>DataProcessor.ДанныеПосредников</content>
+  <content>Report.Отчет</content>
   <subsystems>АэроЭкспресс</subsystems>
 </mdclass:Subsystem>
