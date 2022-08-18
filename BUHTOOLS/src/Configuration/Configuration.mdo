@@ -82,6 +82,7 @@
   <reports>Report.АэроэкспрессОтчет</reports>
   <reports>Report.ФискальнаяДисциплина</reports>
   <dataProcessors>DataProcessor.ПолучитьДанныеРДЛ</dataProcessors>
+  <dataProcessors>DataProcessor.ДанныеПосредников</dataProcessors>
   <informationRegisters>InformationRegister.ДанныеРДЛТелеком</informationRegisters>
   <informationRegisters>InformationRegister.ИсторияДанныеРДЛТелеком</informationRegisters>
   <informationRegisters>InformationRegister.ГрадацияСтоимостиБилетов</informationRegisters>
