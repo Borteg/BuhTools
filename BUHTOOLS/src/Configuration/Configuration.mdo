@@ -66,7 +66,7 @@
   <commonModules>CommonModule.ОФД</commonModules>
   <commonModules>CommonModule.ЗамерВремени</commonModules>
   <commonModules>CommonModule.АэроЭкспрессРасчеты</commonModules>
-  <commonModules>CommonModule.ОбещгоНазначенияSQL</commonModules>
+  <commonModules>CommonModule.ОбщегоНазначенияSQL</commonModules>
   <scheduledJobs>ScheduledJob.ПолучениеДанныхРДЛТелеком</scheduledJobs>
   <catalogs>Catalog.Кассы</catalogs>
   <catalogs>Catalog.ФН</catalogs>
