@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1d14d854-07b4-469b-b982-580e07c3d1c4">
+  <producedTypes>
+    <selectionType typeId="d2872122-85e2-4e32-ac9f-b98d195a13f6" valueTypeId="2e842309-0b8a-43c0-9b19-9c56cadcd907"/>
+    <listType typeId="14f1af3c-425d-4ca1-be3a-31faf6881a9e" valueTypeId="d1661bee-b3df-4283-a537-98161dd82be6"/>
+    <managerType typeId="b9e0242b-5d70-4742-bdb3-2575382f84b5" valueTypeId="b64f9420-cf09-4d93-a73e-f6b26c849915"/>
+    <recordSetType typeId="57966fab-e110-4b9c-b25f-809ddeb1ee1a" valueTypeId="dbda8793-5901-4e9d-b7e6-b505141ed793"/>
+    <recordKeyType typeId="99c08348-edcb-4843-bc65-4121a6fecd72" valueTypeId="93fa7ff6-9143-40de-aace-64c8525ee0fe"/>
+    <recordType typeId="6f463774-e8a8-4d2a-b033-aedd24d970ef" valueTypeId="e38b164d-eecb-4db7-ba2f-cc020fba2891"/>
+  </producedTypes>
+  <name>ДанныеПосредников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные посредников</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="2e940aed-476a-4245-a73d-4feb6617278f">
+    <name>Оборот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборот</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="ad1391b1-d5e5-410f-ab77-37db60cb5c43">
+    <name>ВознаграждениеUFS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вознаграждение UFS</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="b8bbb17f-3452-4a8c-8e2a-b0cd4ef8a153">
+    <name>КодПосредника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код посредника</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <format>
+      <key>ru</key>
+      <value>ЧЦ=5; ЧГ=0</value>
+    </format>
+    <editFormat>
+      <key>ru</key>
+      <value>ЧЦ=5; ЧГ=0</value>
+    </editFormat>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="1618a83d-24c8-4fcc-a33d-6c7142419815">
+    <name>Посредник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Посредник</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="84cbaab6-8bd2-4fa0-a520-972464d5e643">
+    <name>Сервис</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сервис</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

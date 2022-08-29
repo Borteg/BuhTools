@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e89aaf6-4b50-408b-9490-34d03fb2d851">
+  <producedTypes>
+    <objectType typeId="df20e578-0eaf-4e55-8e19-3f8ce530cbd0" valueTypeId="1579cae2-60bd-4344-b050-4303bcf82b1d"/>
+    <refType typeId="df7f12fc-3881-4ed7-a635-2d6327022990" valueTypeId="a5cd6c0a-e4ed-4bed-946a-820b5c9241c1"/>
+    <selectionType typeId="bf24cbb3-cbf3-447c-9b2d-16c69b9aa496" valueTypeId="69441d5a-4b4e-421f-8497-1a7bcabf7d6f"/>
+    <listType typeId="f49ab21e-22e9-499f-934c-74a32b0dceef" valueTypeId="711ea50a-a1a4-42a0-8e25-56338efa7462"/>
+    <managerType typeId="393a66ef-b2b5-4593-90f8-29773c1cff73" valueTypeId="e38ddf61-4f92-440c-ac4b-79da890d6ae4"/>
+  </producedTypes>
+  <name>ДанныеПоПосредникам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные по посредникам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ДанныеПоПосредникам.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ДанныеПоПосредникам.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ДанныеПосредников</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="62133a29-d3aa-42f6-b108-4000099dea7e">
+    <name>МесяцДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц данных</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="2718ea48-8c1e-4a2d-a0a7-68c0e78e6265">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="d1352c6d-b394-4b5f-9688-18ae78011f0d">
+    <producedTypes>
+      <objectType typeId="7b702fcc-1893-48fd-93b9-06bab6641a24" valueTypeId="e51dc872-060b-4c97-9741-02e46d4e757a"/>
+      <rowType typeId="b6cc9605-d904-4e8a-86b8-ea484d338e73" valueTypeId="817e1aeb-1610-4da1-a2b8-7d913aea2492"/>
+    </producedTypes>
+    <name>ДанныеПосредников</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные посредников</value>
+    </synonym>
+    <attributes uuid="34c8c43f-54f7-41b4-a0e9-58653b7f2a81">
+      <name>КодПосредника</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧЦ=5; ЧГ=0</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧЦ=5; ЧГ=0</value>
+      </editFormat>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="547a522f-d888-4c39-9e68-86b663cdea2e">
+      <name>Посредник</name>
+      <synonym>
+        <key>ru</key>
+        <value>Посредник</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="3806690e-314a-459a-b666-a55da7462a00">
+      <name>Сервис</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сервис</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="975ba00d-5039-473f-851a-eae922285d67">
+      <name>Оборот</name>
+      <synonym>
+        <key>ru</key>
+        <value>Оборот</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e2ec648d-49f1-4627-9b7e-8eeb8e322023">
+      <name>ВознаграждениеUFS</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вознаграждение UFS</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>
