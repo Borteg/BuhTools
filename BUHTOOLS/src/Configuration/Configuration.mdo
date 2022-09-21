@@ -67,6 +67,8 @@
   <commonModules>CommonModule.ЗамерВремени</commonModules>
   <commonModules>CommonModule.АэроЭкспрессРасчеты</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияSQL</commonModules>
+  <commonModules>CommonModule.Посредники</commonModules>
+  <wsReferences>WSReference.АЛЬФАСБП</wsReferences>
   <scheduledJobs>ScheduledJob.ПолучениеДанныхРДЛТелеком</scheduledJobs>
   <catalogs>Catalog.Кассы</catalogs>
   <catalogs>Catalog.ФН</catalogs>
@@ -86,6 +88,7 @@
   <reports>Report.Отчет</reports>
   <dataProcessors>DataProcessor.ПолучитьДанныеРДЛ</dataProcessors>
   <dataProcessors>DataProcessor.ДанныеПосредников</dataProcessors>
+  <dataProcessors>DataProcessor.СБП</dataProcessors>
   <informationRegisters>InformationRegister.ДанныеРДЛТелеком</informationRegisters>
   <informationRegisters>InformationRegister.ИсторияДанныеРДЛТелеком</informationRegisters>
   <informationRegisters>InformationRegister.ГрадацияСтоимостиБилетов</informationRegisters>
