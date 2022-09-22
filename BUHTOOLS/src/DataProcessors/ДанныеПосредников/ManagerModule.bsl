@@ -21,42 +21,44 @@
 
 КонецПроцедуры
 
-
-Функция ЗапросПолученияДанныхПровайдера() Экспорт
-	
-	ЗапросТекст = " Select serv.class as SERV,
-				  |sum(acc.sumfee) as UFSFEE ,
-				  |sum(acc.sumsrv) as SRV,
-				  |acc.idtaker as ID,
-				  |mem.nameMember as Name
-				  |from ufs_Accountings acc (NOLOCK)
-				  |   join Trans t (NOLOCK) on acc.idtrans = t.idtrans and t.status = 0  and t.test = 0
-				  |    join OrderPayment op (NOLOCK) on t.OrderPaymentId = op.OrderPaymentId and op.Status = 0
-				  |     join Services serv (NOLOCK) on t.idServ = serv.idServ
-				  |      join members mem on mem.idMember = acc.idtaker
-				  | where acc.phase = 1  and acc.tpstatus = 5 and  acc.datereg >= @BEGDate and acc.datereg < @ENDDate and acc.idpayer = 47072 and acc.directfee = 1
-				  | group by serv.class,acc.idtaker,mem.nameMember";
-
-	Возврат ЗапросТекст;
-
-КонецФункции
+//
+//Функция ЗапросПолученияДанныхПровайдера() Экспорт
+//	
+//	ЗапросТекст = " Select serv.class as SERV,
+//				  |sum(acc.sumfee) as UFSFEE ,
+//				  |sum(acc.sumsrv) as SRV,
+//				  |acc.idtaker as ID,
+//				  |mem.nameMember as Name
+//				  |from ufs_Accountings acc (NOLOCK)
+//				  |   join Trans t (NOLOCK) on acc.idtrans = t.idtrans and t.status = 0  and t.test = 0
+//				  |    join OrderPayment op (NOLOCK) on t.OrderPaymentId = op.OrderPaymentId and op.Status = 0
+//				  |     join Services serv (NOLOCK) on t.idServ = serv.idServ
+//				  |      join members mem on mem.idMember = acc.idtaker
+//				  | where acc.phase = 1  and acc.tpstatus = 5 and  acc.datereg >= @BEGDate and acc.datereg < @ENDDate and acc.idpayer = 47072 and acc.directfee = 1
+//				  | group by serv.class,acc.idtaker,mem.nameMember";
+//
+//	Возврат ЗапросТекст;
+//
+//КонецФункции
 
 Функция ПолучитьПустуюТаблицуПосредников() Экспорт
 	
 	ТаблицаПосредников = Новый ТаблицаЗначений();
 	ТаблицаПосредников.Колонки.Добавить("КодПосредника",ОбщегоНазначения.ОписаниеТипаЧисло(5,0));
+	ТаблицаПосредников.Колонки.Добавить("КодПровайдера",ОбщегоНазначения.ОписаниеТипаЧисло(5,0));
 	ТаблицаПосредников.Колонки.Добавить("Посредник",ОбщегоНазначения.ОписаниеТипаСтрока(150));
+	ТаблицаПосредников.Колонки.Добавить("Провайдер",ОбщегоНазначения.ОписаниеТипаСтрока(150));
 	ТаблицаПосредников.Колонки.Добавить("Сервис",ОбщегоНазначения.ОписаниеТипаСтрока(50));
 	ТаблицаПосредников.Колонки.Добавить("Оборот",ОбщегоНазначения.ОписаниеТипаЧисло(15,2));
 	ТаблицаПосредников.Колонки.Добавить("ВознаграждениеUFS",ОбщегоНазначения.ОписаниеТипаЧисло(15,2));
-	
+	ТаблицаПосредников.Колонки.Добавить("КлиентскаяОплата",ОбщегоНазначения.ОписаниеТипаЧисло(15,2));
 	Возврат ТаблицаПосредников;
 
 КонецФункции
 
 Процедура СФормироватьДанныеПоПосредникам(Знач ДатаНачала,Знач ДатаОкончания,Тз,Соединение) Экспорт
 	
-	ЗапросSQL = ЗапросПолученияДанныхПровайдера();
+	ЗапросSQL = Посредники.ЗапросОтчетПоСайту();
 		
 	ОбщегоНазначенияSQL.СформироватьЗапросДляSQL(ДатаНачала,ДатаОкончания,ЗапросSQL);
 	
@@ -66,11 +68,17 @@
 		
 		НоваяСтрока = Тз.Добавить();
 		
-		НоваяСтрока.КодПосредника = RecordSet.Fields("ID").Value;
-		НоваяСтрока.Посредник = RecordSet.Fields("Name").Value;
+
+		НоваяСтрока.КодПровайдера = RecordSet.Fields("ProvID").Value;
+		НоваяСтрока.Провайдер = RecordSet.Fields("ProvName").Value;
+		
+		НоваяСтрока.КодПосредника = RecordSet.Fields("BankID").Value;
+		НоваяСтрока.Посредник = RecordSet.Fields("BankName").Value;
+		
 		НоваяСтрока.Сервис = RecordSet.Fields("SERV").Value;
-		НоваяСтрока.Оборот = RecordSet.Fields("SRV").Value;
-		НоваяСтрока.ВознаграждениеUFS = RecordSet.Fields("UFSFEE").Value;
+		НоваяСтрока.Оборот = RecordSet.Fields("AMOUNT").Value;
+		НоваяСтрока.ВознаграждениеUFS = RecordSet.Fields("FEE").Value;
+		НоваяСтрока.КлиентскаяОплата = RecordSet.Fields("CLIENTPAY").Value;
 		
 		RecordSet.MoveNext();
 		

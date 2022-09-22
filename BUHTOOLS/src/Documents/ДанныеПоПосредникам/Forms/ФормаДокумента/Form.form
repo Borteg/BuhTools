@@ -152,7 +152,7 @@
   </items>
   <items xsi:type="form:Table">
     <name>ДанныеПосредников</name>
-    <id>7</id>
+    <id>41</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -164,7 +164,7 @@
     <titleLocation>None</titleLocation>
     <items xsi:type="form:FormField">
       <name>ДанныеПосредниковНомерСтроки</name>
-      <id>20</id>
+      <id>54</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -175,7 +175,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ДанныеПосредниковНомерСтрокиРасширеннаяПодсказка</name>
-        <id>22</id>
+        <id>56</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -190,7 +190,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ДанныеПосредниковНомерСтрокиКонтекстноеМеню</name>
-        <id>21</id>
+        <id>55</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -198,19 +198,23 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>LabelField</type>
-      <editMode>EnterOnInput</editMode>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
+      <extInfo xsi:type="form:InputFieldExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>ДанныеПосредниковКодПосредника</name>
-      <id>23</id>
+      <id>57</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -221,7 +225,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ДанныеПосредниковКодПосредникаРасширеннаяПодсказка</name>
-        <id>25</id>
+        <id>59</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -236,7 +240,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ДанныеПосредниковКодПосредникаКонтекстноеМеню</name>
-        <id>24</id>
+        <id>58</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -245,7 +249,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
+      <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -260,7 +264,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ДанныеПосредниковПосредник</name>
-      <id>26</id>
+      <id>60</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -271,7 +275,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ДанныеПосредниковПосредникРасширеннаяПодсказка</name>
-        <id>28</id>
+        <id>62</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -286,7 +290,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ДанныеПосредниковПосредникКонтекстноеМеню</name>
-        <id>27</id>
+        <id>61</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -295,7 +299,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
+      <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -310,7 +314,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ДанныеПосредниковСервис</name>
-      <id>29</id>
+      <id>63</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -321,7 +325,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ДанныеПосредниковСервисРасширеннаяПодсказка</name>
-        <id>31</id>
+        <id>65</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -336,7 +340,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ДанныеПосредниковСервисКонтекстноеМеню</name>
-        <id>30</id>
+        <id>64</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -345,7 +349,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
+      <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -360,7 +364,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ДанныеПосредниковОборот</name>
-      <id>32</id>
+      <id>66</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -371,7 +375,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ДанныеПосредниковОборотРасширеннаяПодсказка</name>
-        <id>34</id>
+        <id>68</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -386,7 +390,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ДанныеПосредниковОборотКонтекстноеМеню</name>
-        <id>33</id>
+        <id>67</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -395,7 +399,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
+      <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -410,7 +414,7 @@
     </items>
     <items xsi:type="form:FormField">
       <name>ДанныеПосредниковВознаграждениеUFS</name>
-      <id>35</id>
+      <id>69</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -421,7 +425,7 @@
       </dataPath>
       <extendedTooltip>
         <name>ДанныеПосредниковВознаграждениеUFSРасширеннаяПодсказка</name>
-        <id>37</id>
+        <id>71</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -436,7 +440,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ДанныеПосредниковВознаграждениеUFSКонтекстноеМеню</name>
-        <id>36</id>
+        <id>70</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -445,7 +449,157 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ДанныеПосредниковКодПровайдера</name>
+      <id>72</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ДанныеПосредников.КодПровайдера</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ДанныеПосредниковКодПровайдераРасширеннаяПодсказка</name>
+        <id>74</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДанныеПосредниковКодПровайдераКонтекстноеМеню</name>
+        <id>73</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ДанныеПосредниковПровайдер</name>
+      <id>75</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ДанныеПосредников.Провайдер</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ДанныеПосредниковПровайдерРасширеннаяПодсказка</name>
+        <id>77</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДанныеПосредниковПровайдерКонтекстноеМеню</name>
+        <id>76</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ДанныеПосредниковКлиентскаяОплата</name>
+      <id>78</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Объект.ДанныеПосредников.КлиентскаяОплата</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ДанныеПосредниковКлиентскаяОплатаРасширеннаяПодсказка</name>
+        <id>80</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДанныеПосредниковКлиентскаяОплатаКонтекстноеМеню</name>
+        <id>79</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
       <showInFooter>true</showInFooter>
@@ -460,7 +614,7 @@
     </items>
     <autoCommandBar>
       <name>ДанныеПосредниковКоманднаяПанель</name>
-      <id>9</id>
+      <id>42</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -476,10 +630,10 @@
         <common>true</common>
       </userVisible>
       <name>ДанныеПосредниковСтрокаПоиска</name>
-      <id>11</id>
+      <id>45</id>
       <extendedTooltip>
         <name>ДанныеПосредниковСтрокаПоискаРасширеннаяПодсказка</name>
-        <id>13</id>
+        <id>47</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -494,7 +648,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ДанныеПосредниковСтрокаПоискаКонтекстноеМеню</name>
-        <id>12</id>
+        <id>46</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -502,7 +656,6 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ДанныеПосредниковСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -514,10 +667,10 @@
         <common>true</common>
       </userVisible>
       <name>ДанныеПосредниковСостояниеПросмотра</name>
-      <id>14</id>
+      <id>51</id>
       <extendedTooltip>
         <name>ДанныеПосредниковСостояниеПросмотраРасширеннаяПодсказка</name>
-        <id>16</id>
+        <id>53</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -532,7 +685,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ДанныеПосредниковСостояниеПросмотраКонтекстноеМеню</name>
-        <id>15</id>
+        <id>52</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -541,7 +694,6 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ДанныеПосредниковСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -553,10 +705,10 @@
         <common>true</common>
       </userVisible>
       <name>ДанныеПосредниковУправлениеПоиском</name>
-      <id>17</id>
+      <id>48</id>
       <extendedTooltip>
         <name>ДанныеПосредниковУправлениеПоискомРасширеннаяПодсказка</name>
-        <id>19</id>
+        <id>50</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -571,7 +723,7 @@
       </extendedTooltip>
       <contextMenu>
         <name>ДанныеПосредниковУправлениеПоискомКонтекстноеМеню</name>
-        <id>18</id>
+        <id>49</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -580,14 +732,13 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ДанныеПосредниковУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
       <name>ДанныеПосредниковРасширеннаяПодсказка</name>
-      <id>10</id>
+      <id>44</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -602,7 +753,7 @@
     </extendedTooltip>
     <contextMenu>
       <name>ДанныеПосредниковКонтекстноеМеню</name>
-      <id>8</id>
+      <id>43</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -623,13 +774,10 @@
     <verticalScrollBar>AutoUse</verticalScrollBar>
     <horizontalLines>true</horizontalLines>
     <verticalLines>true</verticalLines>
-    <autoInsertNewRow>true</autoInsertNewRow>
     <searchOnInput>Auto</searchOnInput>
     <initialListView>Auto</initialListView>
     <horizontalStretch>true</horizontalStretch>
     <verticalStretch>true</verticalStretch>
-    <enableStartDrag>true</enableStartDrag>
-    <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
   </items>
   <autoCommandBar>

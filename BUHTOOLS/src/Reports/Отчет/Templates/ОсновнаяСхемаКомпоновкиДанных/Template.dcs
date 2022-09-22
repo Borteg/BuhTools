@@ -23,6 +23,12 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ОборотОборот</dataPath>
 			<field>ОборотОборот</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Оборот</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Сервис</dataPath>
@@ -34,6 +40,36 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ВознаграждениеUFSОборот</dataPath>
 			<field>ВознаграждениеUFSОборот</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вознаграждение UFS</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КодПровайдера</dataPath>
+			<field>КодПровайдера</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Провайдер</dataPath>
+			<field>Провайдер</field>
+			<role>
+				<dcscom:dimension>true</dcscom:dimension>
+			</role>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>КлиентскаяОплатаОборот</dataPath>
+			<field>КлиентскаяОплатаОборот</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Клиентская оплата</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
@@ -41,7 +77,10 @@
 	ДанныеПосредниковОбороты.Посредник,
 	ДанныеПосредниковОбороты.ОборотОборот,
 	ДанныеПосредниковОбороты.Сервис,
-	ДанныеПосредниковОбороты.ВознаграждениеUFSОборот
+	ДанныеПосредниковОбороты.ВознаграждениеUFSОборот,
+	ДанныеПосредниковОбороты.КлиентскаяОплатаОборот,
+	ДанныеПосредниковОбороты.Провайдер,
+	ДанныеПосредниковОбороты.КодПровайдера
 ИЗ
 	РегистрНакопления.ДанныеПосредников.Обороты(,,,) КАК ДанныеПосредниковОбороты</query>
 	</dataSet>
@@ -52,6 +91,10 @@
 	<totalField>
 		<dataPath>ВознаграждениеUFSОборот</dataPath>
 		<expression>Сумма(ВознаграждениеUFSОборот)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>КлиентскаяОплатаОборот</dataPath>
+		<expression>Сумма(КлиентскаяОплатаОборот)</expression>
 	</totalField>
 	<parameter>
 		<name>НачалоПериода</name>
@@ -110,7 +153,13 @@
 					<dcsset:field>КодПосредника</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КодПровайдера</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Посредник</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Провайдер</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Сервис</dcsset:field>
@@ -120,6 +169,9 @@
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>ОборотОборот</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>КлиентскаяОплатаОборот</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
 			<dcsset:dataParameters>
@@ -140,6 +192,11 @@
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
 				<dcsset:groupItems>
 					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>КодПосредника</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
 						<dcsset:field>Посредник</dcsset:field>
 						<dcsset:groupType>Items</dcsset:groupType>
 						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
@@ -154,7 +211,12 @@
 				<dcsset:item xsi:type="dcsset:StructureItemGroup">
 					<dcsset:groupItems>
 						<dcsset:item xsi:type="dcsset:GroupItemField">
-							<dcsset:field>Сервис</dcsset:field>
+							<dcsset:field>КодПровайдера</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Провайдер</dcsset:field>
 							<dcsset:groupType>Items</dcsset:groupType>
 							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
 						</dcsset:item>
@@ -165,6 +227,21 @@
 					<dcsset:selection>
 						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
 					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:groupItems>
+							<dcsset:item xsi:type="dcsset:GroupItemField">
+								<dcsset:field>Сервис</dcsset:field>
+								<dcsset:groupType>Items</dcsset:groupType>
+								<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							</dcsset:item>
+						</dcsset:groupItems>
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
 				</dcsset:item>
 			</dcsset:item>
 		</dcsset:settings>

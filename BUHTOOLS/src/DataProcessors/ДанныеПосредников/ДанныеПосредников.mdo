@@ -77,6 +77,45 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
     </attributes>
+    <attributes uuid="90505d07-9466-4356-b741-cdfe8b9340aa">
+      <name>КодПровайдера</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>5</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <format>
+        <key>ru</key>
+        <value>ЧЦ=5; ЧГ=0</value>
+      </format>
+      <editFormat>
+        <key>ru</key>
+        <value>ЧЦ=5; ЧГ=0</value>
+      </editFormat>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8fa61e47-947b-4ec6-a0d2-84fe43afe1d6">
+      <name>Провайдер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Провайдер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
     <attributes uuid="01a96ea1-2714-475f-8d2e-90c17cc0be71">
       <name>Посредник</name>
       <synonym>
@@ -128,6 +167,22 @@
       <synonym>
         <key>ru</key>
         <value>Вознаграждение UFS</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="899be6fe-e17d-42df-9a6f-b3210372b3c1">
+      <name>КлиентскаяОплата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Клиентская оплата</value>
       </synonym>
       <type>
         <types>Number</types>
