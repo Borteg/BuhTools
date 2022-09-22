@@ -15,6 +15,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.ЖД</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Report.АэроэкспрессПоНаправлениям</name>
 		<right>
 			<name>Use</name>
