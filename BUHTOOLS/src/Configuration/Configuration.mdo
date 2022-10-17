@@ -84,7 +84,8 @@
   <reports>Report.АэроэкспрессПоНаправлениям</reports>
   <reports>Report.АэроэкспрессОтчет</reports>
   <reports>Report.ФискальнаяДисциплина</reports>
-  <reports>Report.Отчет</reports>
+  <reports>Report.Посредники</reports>
+  <reports>Report.ФискальнаяИнформация</reports>
   <dataProcessors>DataProcessor.ПолучитьДанныеРДЛ</dataProcessors>
   <dataProcessors>DataProcessor.ДанныеПосредников</dataProcessors>
   <informationRegisters>InformationRegister.ДанныеРДЛТелеком</informationRegisters>

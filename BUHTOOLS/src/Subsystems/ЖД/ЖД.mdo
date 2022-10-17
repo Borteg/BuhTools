@@ -24,6 +24,6 @@
   <content>4d993f40-e249-41d6-a489-c3cf450928a9</content>
   <content>fd266a09-377b-497e-a0ce-32cba2f4cc68</content>
   <content>DataProcessor.ДанныеПосредников</content>
-  <content>Report.Отчет</content>
+  <content>Report.Посредники</content>
   <subsystems>АэроЭкспресс</subsystems>
 </mdclass:Subsystem>
